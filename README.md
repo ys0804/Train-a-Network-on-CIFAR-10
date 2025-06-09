@@ -29,16 +29,10 @@ pip install torch torchvision matplotlib numpy tqdm
 卷积核可视化：visualize_filters()
 特征图可视化：visualize_feature_maps()
 ### 使用方法
-克隆项目代码：
-
-bash
-git clone https://github.com/your_username/cifar10_classification.git
-cd cifar10_classification
-
 运行训练和评估脚本：
 
 bash
-python cifar10_classification.py
+python cifar10_classification_task.py
 
 ### 查看训练结果和可视化图像：
 训练过程中的损失和准确率曲线：training_curves.png
